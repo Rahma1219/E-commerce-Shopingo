@@ -52,7 +52,7 @@ function Footer() {
             <div className='footerpart2'>
 
                 <div>
-                    <h3 id='titlefooter' >Shopingo.</h3>
+                    <h3 id='titlefooter' >Shoppingo.</h3>
                     <p id='para1'>400 University Drive Suite 200 Coral
                         Gables,<br />
                         FL 33134 USA</p>
@@ -107,7 +107,7 @@ function Footer() {
             </div>
 
             <hr />
-            <h5 id='endtext'>2023 Shopingo. All rights reverved</h5>
+            <h5 id='endtext'>2023 Shoppingo. All rights reverved</h5>
 
 
         </div>

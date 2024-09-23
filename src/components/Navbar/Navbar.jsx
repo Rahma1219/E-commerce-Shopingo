@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import Logo from '/image/Meubel House_Logos-05.png'
 import carticon from '/image/ant-design--shopping-cart-outlined.svg'
-import Sidebarcart from '../../src/Sidebarcart/Sidebarcart'
+import Sidebarcart from '/src/components/Sidebarcart/Sidebarcart'
 
 
 
@@ -40,7 +40,7 @@ function Navbar() {
 
                 <div className='logo'>
                     <img src={Logo} alt="" />
-                    <span id='logotext'>Shopingo</span>
+                    <span id='logotext'>Shoppingo</span>
 
                 </div>
 
