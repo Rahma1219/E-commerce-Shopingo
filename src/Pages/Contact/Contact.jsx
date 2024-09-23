@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import modules from './Contact.module.css'
-import iconLocation from '../../../public/image/mdi--location.svg'
-import iconPhone from '../../../public/image/ph--phone-fill.svg'
-import iconTime from '../../../public/image/icon-park-solid--time.svg'
-import arrowicon from '../../../public/image/weui--arrow-filled.svg'
-import mainimg from '../../../public/image/bg.png'
-import mainimg2 from '../../../public/image/bg2.png'
-import Logo from '../../../public/image/Meubel House_Logos-05.png'
+import iconLocation from '/image/mdi--location.svg'
+import iconPhone from '/image/ph--phone-fill.svg'
+import iconTime from '/image/icon-park-solid--time.svg'
+import arrowicon from '/image/weui--arrow-filled.svg'
+import mainimg from '/image/bg.png'
+import mainimg2 from '/image/bg2.png'
+import Logo from '/image/Meubel House_Logos-05.png'
 import * as yup from "yup"
 
 

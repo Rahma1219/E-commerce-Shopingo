@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import modules from './Shop.module.css'
-import mainimg from '../../../public/image/bg.png'
-import mainimg2 from '../../../public/image/bg2.png'
-import arrowicon from '../../../public/image/weui--arrow-filled.svg'
+import mainimg from '/image/bg.png'
+import mainimg2 from '/image/bg2.png'
+import arrowicon from '/image/weui--arrow-filled.svg'
 import Pagination from '../../components/Pagination/Pagination';
-import Logo from '../../../public/image/Meubel House_Logos-05.png'
+import Logo from '/image/Meubel House_Logos-05.png'
 import { Link, useParams } from 'react-router-dom'
 import useCartStore from '../../Store/CartStore';
 function Shop() {

@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import modules from './Cart.module.css'
-import icondelete from '../../../public/image/ant-design--delete-filled.svg'
+import icondelete from '/image/ant-design--delete-filled.svg'
 import useCartStore from '../../Store/CartStore'
-import mainimg from '../../../public/image/bg.png'
-import mainimg2 from '../../../public/image/bg2.png'
-import Logo from '../../../public/image/Meubel House_Logos-05.png'
-import arrowicon from '../../../public/image/weui--arrow-filled.svg'
+import mainimg from '/image/bg.png'
+import mainimg2 from '/image/bg2.png'
+import Logo from '/image/Meubel House_Logos-05.png'
+import arrowicon from '/image/weui--arrow-filled.svg'
 
 function Cart() {
     const [cartdata, setCartData] = useState([])

@@ -1,19 +1,19 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Home from "../Pages/Home/Home"
-import Contact from "../Pages/Contact/Contact"
+import Home from "../../src/Pages/Home/Home"
+import Contact from "../../src/Pages/Contact/Contact"
 import Layout from "../Pages/Layout"
-
 import PaymentOptions from "../Pages/PaymentOptions"
 import Returns from "../Pages/PrivacyPolicies"
 import PrivacyPolicies from "../Pages/Returns"
-import Shop from "../Pages/Shop/Shop"
-import SingleProduct from "../Pages/SingleProduct/SingleProduct"
+import Shop from "../../src/Pages/Shop/Shop"
+import SingleProduct from "../../src/Pages/SingleProduct/SingleProduct"
 import CategoriesProduct from "../Pages/CategoriesProduct/CategoriesProduct"
 import ElectroniCategory from "../Pages/ElectronicCategory/ElectroniCategory"
 import WomensClothesCategory from "../Pages/WomenClothesCategory/WomenClothesCategory"
 import MensClothesCategory from "../Pages/MensClothesCategory/MensClothesCategory"
 import JeweleryCategory from "../Pages/JeweleryCategory/JeweleryCategory"
-import Cart from "../Pages/Cart/Cart"
+import Cart from "../../src/Pages/Cart/Cart"
+
 
 
 

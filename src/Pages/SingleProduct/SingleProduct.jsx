@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import modules from './SingleProduct.module.css'
-import arrowicon from '../../../public/image/weui--arrow-filled.svg'
-import iconfacebook from '../../../public/image/ic--baseline-facebook.svg'
-import iconlinkedin from '../../../public/image/prime--linkedin.svg'
-import icontwitter from '../../../public/image/ant-design--twitter-circle-filled.svg'
-import stars from '../../../public/image/Group 88 (1).png'
+import arrowicon from '/image/weui--arrow-filled.svg'
+import iconfacebook from '/image/ic--baseline-facebook.svg'
+import iconlinkedin from '/image/prime--linkedin.svg'
+import icontwitter from '/image/ant-design--twitter-circle-filled.svg'
+import stars from '/image/Group 88 (1).png'
 import useCartStore from "../../Store/CartStore"
 
 

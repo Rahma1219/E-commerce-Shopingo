@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import modules from './Home.module.css'
-import mainimg from '../../../public/image/Image.png'
-import mainimg2 from '../../../public/image/Image2.png'
-import electronicimg from '../../../public/image/2ac38bd7-f473-4048-b862-3deac6592b55.jpeg'
-import jeweleryimg from '../../../public/image/935d97c0-ce18-4f65-8d89-843c4ed42da1.jpeg'
-import menimg from '../../../public/image/Casual Beige Linen Men Suits Single Breasted Slim Fit Notch Lapel Blazer with Pants High Quality 2 Piece Wedding Costume Homme f - Beige _ XL.jpeg'
-import womenimg from '../../../public/image/bb3cc27a-427b-4f25-8052-749d8f9860ec.jpeg'
+import mainimg from '/image/Image.png'
+import mainimg2 from '/image/Image2.png'
+import electronicimg from '/image/2ac38bd7-f473-4048-b862-3deac6592b55.jpeg'
+import jeweleryimg from '/image/935d97c0-ce18-4f65-8d89-843c4ed42da1.jpeg'
+import menimg from '/image/Casual Beige Linen Men Suits Single Breasted Slim Fit Notch Lapel Blazer with Pants High Quality 2 Piece Wedding Costume Homme f - Beige _ XL.jpeg'
+import womenimg from '/image/bb3cc27a-427b-4f25-8052-749d8f9860ec.jpeg'
 import { Link } from 'react-router-dom'
 function Home() {
 

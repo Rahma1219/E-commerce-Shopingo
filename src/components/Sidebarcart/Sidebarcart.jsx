@@ -1,7 +1,7 @@
 import './Sidebarcart.css'
-import iconclose from '../../../public/image/Group2.png'
+import iconclose from '/image/Group2.png'
 import { useEffect, useState } from 'react'
-import iconclose2 from '../../../public/image/icon-park-solid--close-one.svg'
+import iconclose2 from '/image/icon-park-solid--close-one.svg'
 import useCartStore from '../../Store/CartStore'
 import { Link } from 'react-router-dom'
 

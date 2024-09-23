@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 import React, { useState } from 'react'
 import './Navbar.css'
-import Logo from '../../../public/image/Meubel House_Logos-05.png'
-import carticon from '../../../public/image/ant-design--shopping-cart-outlined.svg'
-import Sidebarcart from '../Sidebarcart/Sidebarcart'
+import Logo from '/image/Meubel House_Logos-05.png'
+import carticon from '/image/ant-design--shopping-cart-outlined.svg'
+import Sidebarcart from '../../src/Sidebarcart/Sidebarcart'
 
 
 
