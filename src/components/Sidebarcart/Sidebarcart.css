@@ -1,0 +1,230 @@
+.Sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+  width: 417px;
+  z-index: 999;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 0;
+  padding: 30px 30px;
+  animation: move 1.5s;
+}
+
+
+@keyframes move {
+  from {
+    width: 0;
+    ;
+  }
+
+  to {
+    width: 417px;
+  }
+}
+
+
+#bg3 {
+  background-color: rgba(0, 0, 0, 0.598);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Sidebar h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.headsidbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.iconclose {
+  width: 20px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.hr {
+  opacity: 50%;
+  width: 80%;
+  float: left;
+
+  margin: 20px 0 0 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+  padding: 15px 0;
+
+
+}
+
+.info2 {
+  flex-grow: 1;
+}
+
+.info2 p {
+  font-size: 16px;
+
+}
+
+.product .imgproduct {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+
+
+
+.iconclose2 {
+  width: 25px;
+  height: 17px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: -4px;
+  top: -1px;
+  transition: color 0.3s ease;
+}
+
+.calcprice {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+#price {
+  color: #B88E2F;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.hr3 {
+  opacity: 50%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+
+}
+
+.cartbtn {
+  margin-top: 20px;
+}
+
+.btncart {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 5px 28px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+.btncart:hover {
+  background-color: gray;
+  color: white;
+
+}
+
+.sidebarfooter {
+  width: 100%;
+
+
+}
+
+.productinsidebar {
+  overflow: hidden;
+  overflow-y: auto;
+  height: 50vh;
+
+
+}
+
+.productinsidebar::-webkit-scrollbar {
+  width: 0;
+}
+
+.subtotalsidbar {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.subtotalsidbar p {
+  text-align: left;
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+  .Sidebar {
+    width: 280px;
+  }
+  @keyframes move {
+    from {
+      width: 0;
+      ;
+    }
+  
+    to {
+      width:  280px;
+    }
+  }
+
+
+}
+
+@media (max-width:450px) {
+  .Sidebar {
+    width: 217px;
+  }
+  
+  @keyframes move {
+    from {
+      width: 0;
+      ;
+    }
+  
+    to {
+      width:  217px;
+    }
+  }
+  .subtotalsidbar {
+    display: flex;
+    gap: 100px;
+   
+  }
+  .info2 p {
+    font-size: 12px;
+  
+  }
+}

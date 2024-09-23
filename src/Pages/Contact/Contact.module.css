@@ -1,0 +1,300 @@
+.section{
+    animation: mymove 1.5s ;
+}
+
+@keyframes mymove {
+    from {
+        opacity: 20%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+
+.mainimg {
+    width: 100%;
+    opacity: 70%;
+    position: relative;
+
+}
+.mainimg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.mainimg2{
+    display: none;
+  
+}
+.over{
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-140%);
+    color: black;
+    line-height: 45px;
+}
+.textimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.currentpage{
+    font-size: 48px;
+    font-weight: 300;
+ }
+.textimg h2{
+   font-size: 16px;
+}
+.textimg img{
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+ }
+ .text1{
+    font-weight: 300;
+ }
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 60px;
+  
+}
+.heading h2{
+    font-size: 36px;
+}
+.heading p{
+    font-size: 16px;
+    color:#9F9F9F;
+    max-width: 644px;
+    text-align: center;
+    line-height: 25px;
+   
+}
+.sec2{
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    /* grid-template-columns: auto auto; */
+    justify-content: center;
+    align-items:flex-start;
+
+  
+}
+.contact{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+
+}
+h2,p{
+    margin: 0;
+}
+.leftsec img{
+    width: 23px;
+    height: 23px;
+}
+
+.leftsec h5{
+    font-size: 24px;
+    font-weight: 500;   
+   
+}
+
+.leftsec p{
+    font-size: 16px;  
+    width: 200px;
+    margin-top: 10px;
+}
+.info{
+    line-height: 25px;
+   
+}
+::placeholder{
+    padding-left: 20px;
+    color: #9F9F9F;
+    font-size: 16px;
+    font-weight: 200;
+}
+.rightsec input {
+    display: flex;
+    flex-direction: column;
+    width: 528px;
+    height: 75px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F ;
+    margin-top: 20px;
+   
+}
+.rightsec  {
+margin-top: 20px;
+   
+}
+.rightsec  label {
+    font-size: 16px;
+    font-weight: 600;
+       
+    }
+.rightsec{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+textarea{
+    border-radius: 10px;
+    resize: none;
+    width: 527px;
+    height: 120px;
+    margin-top: 20px;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    
+}
+.textarea ::placeholder{
+ padding-top: 30px;
+    
+}
+.rightsec button{
+border-radius: 10px;
+width: 237px;
+height: 55px;
+border: none;
+background-color: #B88E2F;
+color: white;
+font-size: 16px;
+cursor: pointer;
+margin-top: 40px;
+}
+.rightsec button:hover{
+    background-color: #70571d;
+}
+.input{
+    margin-top: 20px;
+    
+}
+
+.error{
+    color: rgb(206, 70, 70);
+    margin: 0;
+    padding: 10px;
+}
+
+
+@media (max-width:800px) {
+    .sec2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .heading h2{
+        font-size: 32px;
+    }
+    
+    .rightsec input {
+
+        width: 400px;
+        height: 75px;
+      
+       
+    }
+    .mainimg2{
+        display: block;
+        width: 100%;
+        opacity: 70%;
+        position: relative;
+     
+ 
+    }
+    .mainimg2::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    
+    .mainimg{
+        display: none;
+    }
+    .over{
+    
+        transform: translateY(-135%);
+    
+    }
+
+    .heading p{
+       
+        max-width: 532px;
+      
+       
+    }
+    textarea{
+
+        width:400px;
+        height: 120px;
+  
+    }
+    .rightsec button {
+        width: 100%;
+        }
+}
+
+@media (max-width:450px) {
+    .sec2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .rightsec input {
+
+        width: 320px;
+        height: 75px;
+      
+       
+    }
+
+    .heading p{
+       
+        max-width: 310px ;
+       
+      
+      
+       
+    }
+    textarea{
+
+        width:320px;
+        height: 120px;
+  
+    }
+    .over{
+    
+        transform: translateY(-110%);
+    
+    }
+    .rightsec button {
+        width: 100%;
+        }
+    
+}
+
+/* 
+@media (max-width:450px) {
+    
+    
+  
+
+} */

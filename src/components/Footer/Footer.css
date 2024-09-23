@@ -1,0 +1,158 @@
+.footerpart1 {
+    background-color: #FAF3EA;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 270px;
+    margin: 200px 0 30px 0;
+
+
+}
+
+.div {
+    
+    display: flex;
+    gap: 10px;
+}
+
+h1,
+p,
+label {
+    margin: 0;
+}
+
+.div label {
+    font-size: 25px;
+    font-weight: 550;
+    font-style: normal;
+}
+
+.div p {
+    font-size: 20px;
+
+    color: #898989;
+}
+
+.div div {
+    line-height: 30px;
+}
+
+
+.footerpart2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:first baseline;
+
+}
+
+.links li {
+    list-style: none;
+    font-size: 16px;
+
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.inputfooter #email {
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+::placeholder #email {
+    color: #9F9F9F;
+    font-size: 14px;
+}
+
+.inputfooter #btn {
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    margin-left: 10px;
+    font-weight: 550;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+hr {
+    width: 90%;
+    opacity: 40%;
+
+}
+
+#endtext {
+    padding: 20px 0px 100px 75px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.links2 li {
+    list-style: none;
+    font-size: 16px;
+
+}
+
+.links2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+.email{
+    margin-top: 50px;
+}
+
+.footer h4 {
+    color: #9F9F9F;
+
+    font-weight: 550;
+
+
+}
+
+#para1 {
+    color: #9F9F9F;
+    font-weight: 400;
+    line-height: 25px;
+   margin-top: 50px;
+   width: 285px;
+}
+
+
+@media (max-width:800px) {
+    .footerpart1 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row: auto auto auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: auto;
+        padding: 40px 0;
+    }
+    #para1{
+        width: 130px;
+    }
+    .footerpart2 {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        margin: 0;
+        padding-left:10px ;
+
+    }
+    #endtext {
+        padding: 20px 0px 100px 25px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+}
