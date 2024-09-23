@@ -304,19 +304,21 @@ img {
         display: flex;
         flex-direction: column;
         gap: 60px;
-        padding-left: 30px;
+        padding: 0 20px;
 
 
     }
 
-    .product2 .title {
+    .product2 span {
         color: #9F9F9F;
+        display: flex;
+        align-items: flex-start;
 
     }
 
     .product2 {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         gap: 20px;
     }
 
